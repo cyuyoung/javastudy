@@ -13,3 +13,5 @@ public class Exam03_07 {
 
 		int total = num1 + num2 + num3 + num4 + num5;
 		System.out.println("각 자리 숫자의 합 : " + total);
+	}
+}
