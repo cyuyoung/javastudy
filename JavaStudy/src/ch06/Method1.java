@@ -17,12 +17,14 @@ public class Method1 {
 	}
 	
      public static void main(String[] args) {
-    	System.out.println("값을 입력해주세요");
-		//지역변수
-    	int num = input();
-    	
-    	
-    	System.out.println("입력된 값은?" + num); 
+    	 
+    	 Method1 m = new Method1();
+    	 m.input();
+    	 
+    	 new Method1().input();
+    	 
+    	 
+    
 	}
 }
 
